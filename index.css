@@ -1,0 +1,194 @@
+body {
+  padding: 0 0 0 0;
+  margin: 0;
+  background-color: #80A09C;
+  font-family: "Open Sans", "Segoe UI", calibri, arial, helvetica;
+  background: url('/bg.jpg');
+  background-position: center center;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+p {
+  font-size: 14px;
+}
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+}
+.body-wrapper {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #333;
+}
+.body-wrapper .header-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #000000;
+  width: 100%;
+  box-shadow: 0px 1px 5px #777;
+  z-index: 100;
+}
+.body-wrapper .header-wrapper a {
+  color: white;
+  text-decoration: none;
+}
+.body-wrapper .body-container {
+  min-height: 100%;
+  width: 100%;
+  font-size: 12px;
+  position: relative;
+}
+.body-wrapper .body-container .main-wrapper {
+  font-size: 12px;
+  padding-top: 50px;
+  padding-bottom: 2em;
+}
+.body-wrapper .body-container .main-wrapper .main-heading {
+  color: #EBEDF3;
+  font-size: 54px;
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+  margin-bottom: 18px;
+}
+.body-wrapper .body-container .main-wrapper .section {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.body-wrapper .body-container .main-wrapper .section .container-wrapper {
+  padding-top: 60px;
+}
+.body-wrapper .body-container .main-wrapper .title {
+  top: 0;
+  height: 350px;
+}
+.body-wrapper .body-container .main-wrapper .about {
+  top: 100%;
+  background-color: white;
+  color: #222;
+  font-size: 14px;
+  height: 100%;
+}
+.body-wrapper .body-container .main-wrapper .products {
+  top: 200%;
+  background-color: #68B1F5;
+  color: #222;
+  font-size: 14px;
+  height: 100%;
+}
+.body-wrapper .body-container .main-wrapper .contact {
+  top: 300%;
+  background-color: white;
+  color: #222;
+  font-size: 14px;
+  height: 100%;
+}
+.body-wrapper .body-container .main-wrapper .footer {
+  top: 400%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: grey;
+  color: white;
+  font-size: 14px;
+  height: 55px;
+  line-height: 55px;
+}
+.body-wrapper .container-wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+.body-wrapper .card {
+  background-color: #222;
+  padding: 10px;
+  box-shadow: 2px 2px 8px #555;
+  width: 90%;
+  margin: 10px auto;
+  color: white;
+}
+.body-wrapper .card-white {
+  background-color: #f9f9f9;
+  color: #333;
+  box-shadow: 2px 2px 8px #aaa;
+  padding: 10px;
+  width: 90%;
+  margin: 10px auto;
+}
+.body-wrapper .card-greengrey {
+  background-color: #80A09C;
+  color: #fff;
+  box-shadow: 2px 2px 8px #aaa;
+  padding: 10px;
+  width: 90%;
+  margin: 10px auto;
+}
+.body-wrapper .card-black-transparent {
+  width: 250px;
+  margin: 0 auto;
+  padding: 25px;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(34, 34, 34, 0.4);
+  line-height: 1.7em;
+}
+.body-wrapper .menu {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  font-size: 14px;
+}
+.body-wrapper .menu a,
+.body-wrapper .menu .menu-item {
+  color: #222;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.body-wrapper .menu a:hover,
+.body-wrapper .menu .menu-item:hover {
+  color: #fff;
+}
+.body-wrapper .menu a:hover div,
+.body-wrapper .menu .menu-item:hover div {
+  color: #fff;
+  background-color: #2A3B96;
+}
+.body-wrapper .menu a div,
+.body-wrapper .menu .menu-item div {
+  box-shadow: 0px 0px 0px 0px black;
+  width: 75px;
+}
+.body-wrapper .clean-input {
+  border: 1px solid #aaa;
+  background-color: white;
+  padding: 5px 10px;
+  width: 200px;
+}
+.body-wrapper .clean-button {
+  border: 1px solid #aaa;
+  background-color: #bbb;
+  padding: 5px 10px;
+  width: 200px;
+  cursor: pointer;
+}
+.body-wrapper .clean-button:hover {
+  background-color: #ddd;
+}
